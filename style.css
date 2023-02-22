@@ -8,6 +8,11 @@ html {
   height: 100%;
   background-color: #f8fafc;
   z-index: 9;
+  font-size: 16px;
+}
+
+.material-icons.md-48 {
+  font-size: 48px;
 }
 
 body {
@@ -18,12 +23,45 @@ body {
   height: 100%;
 }
 
-aside {
+.sidebar {
   display: flex;
   flex-direction: column;
   background-color: #e0f2fe;
   height: 100%;
+  padding: 24px;
   z-index: 9;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.sidebar h1 {
+  font-size: 2rem;
+}
+
+div.dashboard-top {
+  margin-bottom: 50px;
+  margin-top: 0 !important;
+}
+
+div.dashboard-middle {
+  display: flex;
+  flex-direction: column;
+}
+
+div.dashboard-bottom {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+div.dashboard-item {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+div.dashboard-item .material-icons {
+  margin-right: 20px;
 }
 
 div.content {
