@@ -39,11 +39,11 @@ body {
 div.dashboard-top {
   margin-bottom: 50px;
   margin-top: 0 !important;
-  margin-left: -10px;
+  margin-left: -12px;
 }
 
 div.dashboard-top .material-icons.md-48 {
-  margin-right: 6px;
+  margin-right: 8px;
 }
 
 div.dashboard-middle {
