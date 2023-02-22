@@ -7,7 +7,6 @@
 html {
   height: 100%;
   background-color: #f8fafc;
-  z-index: 9;
   font-size: 16px;
 }
 
@@ -29,7 +28,6 @@ body {
   background-color: #e0f2fe;
   height: 100%;
   padding: 24px;
-  z-index: 9;
   font-weight: 600;
   font-size: 1.5rem;
 }
@@ -41,6 +39,11 @@ body {
 div.dashboard-top {
   margin-bottom: 50px;
   margin-top: 0 !important;
+  margin-left: -10px;
+}
+
+div.dashboard-top .material-icons.md-48 {
+  margin-right: 6px;
 }
 
 div.dashboard-middle {
@@ -70,7 +73,6 @@ div.content {
 }
 
 header {
-  z-index: 1;
   box-shadow: 0 6px 16px -16px rgb(0, 0, 0);
 }
 
