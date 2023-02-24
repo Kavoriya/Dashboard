@@ -235,7 +235,6 @@ main .main-sidebar {
 
 .card-buttons {
   margin-top: auto;
-  width: 260px;
   display: flex;
   justify-content: space-between;
 }
