@@ -1,3 +1,7 @@
+:root {
+  --main-color: #0284c7;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -31,7 +35,8 @@ body {
 .sidebar {
   display: flex;
   flex-direction: column;
-  background-color: #e0f2fe;
+  background-color: var(--main-color);
+  color: white;
   padding: 1rem 1rem 1rem 1.5rem;
   font-size: 1.5rem;
 }
@@ -74,7 +79,7 @@ div.dashboard-item .material-icons {
 div.content {
   display: grid;
   grid-template-rows: 180px 1fr;
-  background-color: #d6d6db;
+  background-color: rgb(228, 239, 247);
 }
 
 .content header {
@@ -138,7 +143,7 @@ div.content {
 .header-bottom .avatar-and-name {
   display: flex;
   align-items: center;
-  width: 400px;
+  width: 500px;
 }
 
 .avatar-and-name img {
@@ -170,7 +175,7 @@ div.content {
   height: 50px;
   border: none;
   border-radius: 25px;
-  background-color: rgb(114, 215, 223);
+  background-color: var(--main-color);
   color: white;
   font-size: inherit;
   margin-left: 1rem;
@@ -228,7 +233,7 @@ main .main-sidebar {
   padding: 20px 16px;
   border-radius: 8px;
   background-color: white;
-  box-shadow: 0 6px 6px -6px black;
+  box-shadow: 6px 6px 6px -6px black;
 }
 
 .card-buttons {
